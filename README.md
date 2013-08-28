@@ -1,6 +1,6 @@
-Created by StudioOB on 4/5/13.                                        
-Copyright (c) 2013 Tim O'Brien. All rights reserved.                 
-===========================================================================
+##Created by StudioOB on 4/5/13.                                        
+##Copyright (c) 2013 Tim O'Brien. All rights reserved.                 
+
  
 
 This program is free software: you can redistribute it and/or modify
@@ -13,10 +13,10 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        
 GNU General Public License for more details.                         
 
- You should have received a copy of the GNU General Public License    
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License    
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-              ####KNOWN BUGS IN THIS VERSION                  
+###KNOWN BUGS IN THIS VERSION                  
 1) character validation is not working correctly - it is 
 possible to enter a character when the program expects
 a int value and crash the game.  Still researching the
