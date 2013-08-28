@@ -17,24 +17,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ###KNOWN BUGS IN THIS VERSION                  
-1) character validation is not working correctly - it is 
-possible to enter a character when the program expects
-a int value and crash the game.  Still researching the
-best way to handle this.  (isdigit and isalpha)       
+1) character validation is not working correctly - it is possible to enter a character when the program expects a int value and crash the game.  Still researching the best way to handle this.  (isdigit and isalpha)       
                                                          
-2) The #Defines's for the color codes only work in a UNIX
-Environment - they don't render correctly in Windows. 
+2) The #Defines's for the color codes only work in a UNIX Environment - they don't render correctly in Windows. 
                                                          
-3) I have has problems with player records skipping over 
-record 0 - I haven't been able to find a solution to  
-this problem when creating a new player with nothing  
-in the player.dat file.  I'll have to spend more debug
-time tracking down a solution.                        
+3) I have has problems with player records skipping over record 0 - I haven't been able to find a solution to this problem when creating a new player with nothing in the player.dat file.  I'll have to spend more debug time tracking down a solution.                        
                                                          
-4) Major trouble in the honor roll - it just appending   
-any records from players that complete the game rather
-than only publishing the top 10 scores.. etc..  I was 
-planning something here that I just didn't have the   
-time to execute properly.  At least it functions some-
-what.  I'd like to have it format just the handle and 
-that looked to see if the score belonged in the list. 
+4) Major trouble in the honor roll - it just appending any records from players that complete the game rather than only publishing the top 10 scores.. etc..  I was planning something here that I just didn't have the time to execute properly.  At least it functions somewhat.  I'd like to have it format just the handle and that looked to see if the score belonged in the list. 
